@@ -1,4 +1,25 @@
-inner_layers:
+layer_sizes:
+- 784
+- 50
+- 50
 - 10
-- 30
+
+input_divider: 1
+
+epochs: 
 - 10
+- 10
+- 10
+- 10
+
+batch_size: 
+ - 100
+ - 100
+ - 100
+ - 100
+
+learning_rate: 
+ - 15
+ - 10
+ - 8
+ - 3
